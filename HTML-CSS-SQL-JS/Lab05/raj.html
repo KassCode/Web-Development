@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson - Lab 5</title>
+    <link rel="icon" href="images/favicon.ico"><!--favicon-->
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta element-->
+    <link rel="stylesheet" href="styles/slicknav.css"><!--link and script code for slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+    <style>
+        div.raj{
+            float: left;
+            padding-right: .2em;
+        }
+    </style>
+
+    <style>
+        div.momo{
+            float: right;
+            padding-right: .2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="images/selfie2.jpg" alt="Jasper and I">
+    <h1>All About Raj & Momo</h1>
+    <h2>Feline Friends</h2>
+</header>
+
+    <nav id="mobile_menu"></nav><!--html code for slicknav -->
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="raj.html">Raj & Momo</a></li>
+            <li><a href="jasper.html">Jasper</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
+
+        </ul>
+    </nav>
+
+
+<nav id="nav_menu_2">
+    <ul>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="raj.html" class="current">Raj & Momo</a></li>
+        <li><a href="jasper.html">Jasper</a></li>
+        <li><a href="index.html">Home</a></li>
+
+    </ul>
+</nav>
+    <main>
+
+        <aside>
+            <nav id="nav_menu_1">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Siamese_cat">Siamese Cats</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/American_Wirehair">American Wirehair Cats</a></li>
+                <li><a href="https://www.petfinder.com/pet-adoption/cat-adoption/">Cat Adoption</a></li>
+                <li><a href="https://www.petco.com/shop/en/petcostore">Cat Supplies</a></li>
+
+            </ul>
+        </nav>
+        </aside>
+
+        <section>
+
+                <table class="align">
+                    <caption><h2>Feline Quirks</h2></caption>
+                    <thead>
+                    <tr>
+                        <th class="left" scope="col">Habit</th>
+                        <th scope="col">Raj</th>
+                        <th scope="col">Momo</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="left" scope="row">Likes being pet...</td>
+                        <td scope="row">forever</td>
+                        <td scope="row">once a month</td>
+                    </tr>
+                    <tr>
+                        <td class="left" scope="row">Sits...</td>
+                        <td scope="row">on you</td>
+                        <td scope="row">nowhere near you</td>
+                    </tr>
+                    <tr>
+                        <td class="left" scope="row">Hairballs are...</td>
+                        <td scope="row">sweet new toys</td>
+                        <td scope="row">my daily gift</td>
+                    </tr>
+                    <tr>
+                        <td class="left" scope="row">Meows...</td>
+                        <td scope="row">24/7</td>
+                        <td scope="row">when legit hungry</td>
+                    </tr>
+                    <tr>
+                    <td class="left" scope="row">Meow sounds like...</td>
+                    <td scope="row">MAOOOO</td>
+                    <td scope="row">me!</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Scratches...</td>
+                        <td>the cat tree</td>
+                        <td>the couch</td>
+                    </tr>
+                    <tr>
+                        <td class="left" scope="row">Spends time...</td>
+                        <td scope="row">licking empty food dish</td>
+                        <td scope="row">hiding</td>
+                    </tr>
+                    <tr>
+                        <td class="left" scope="row">Loves to...</td>
+                        <td scope="row">sneeze on your face in AM</td>
+                        <td scope="row">attack from under bed</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            <div class="raj">
+            <figure>
+                <img src="images/raj.jpg" alt="Raj">
+                <figcaption>Many people ask what's wrong with Raj's eyes. He is cross-eyed.</figcaption>
+            </figure>
+            </div>
+
+            <div class="momo">
+            <figure>
+                <img src="images/momo.jpg" alt="Momo">
+                <figcaption>Momo looks sweet but is actually a cactus in cat form.</figcaption>
+            </figure>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&#9400; 2017 Tamara Kasson</p>
+        </footer>
+    </main>
+
+
+</body>
+</html>

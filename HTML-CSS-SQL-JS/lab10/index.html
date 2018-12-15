@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kasson - Lab 10</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="jquery-ui.min.css" type="text/css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery-ui.min.js"></script>
+
+<script>
+    $( function() {
+        $( "#accordion" ).accordion({
+            heightStyle: "content", //allows panels to keep native height
+            collapsible: true //allows all panels to be collapsed
+            });
+    } );
+</script>
+</head>
+<body>
+<h1>Tamara Kasson's Spring Schedule</h1>
+<div id="accordion">
+    <h3>ENGL 201 - Composition II</h3>
+    <div>
+        <p>
+            Study of and practice in writing persuasive prose, with the aim to improve writing skills in all disciplines.
+            Prerequisite(s): Engl 101 and completed 28 credit hours
+        </p>
+    </div>
+    <h3>MATH 102 - College Algebra</h3>
+    <div>
+        <p>
+            Equations and inequalities; polynomial functions and graphs, exponents, radicals, binomial theorem, zeros of
+            polynomials; systems of equations; exponential, logarithmic, and inverse functions, applications and graphs.
+            Other topics selected from sequences, series, and complex numbers.
+            Prerequisite(s):Math 095 or minimum grade of "C" in Math 101 or determined by Board of Regent placement policy.
+        </p>
+    </div>
+    <h3>CIS 375 - Web Application Programming II</h3>
+    <div>
+        <p>
+          An introduction to the languages used to develop and operate e-commerce sites with focus on server-side
+            technologies. Topics include issues common to the development of e-commerce sites such as mixed technology
+            environments, security, and internationalization.
+            Prerequisite(s): CIS 275 or MCOM 351
+        </p>
+
+    </div>
+    <h3>PSYC 101 - General Psychology</h3>
+    <div>
+        <p>
+          This course is an introduction survey of the field of psychology with consideration of the biological bases of
+            behavior, sensory and perceptual processes, learning and memory, human growth and development, social
+            behavior and normal and abnormal behavior.
+        </p>
+
+    </div>
+    <h3>SOC 285 - Society and Technology</h3>
+    <div>
+        <p>
+            Exploring a variety of domestic and global topics relating to technology, society, and culture.
+            Prerequisite(s): CSC 105
+        </p>
+
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kasson - lab 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab8.css" type="text/css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="kasson-lab-8.js"></script>
+</head>
+<body>
+
+<h1>Convert temperatures</h1>
+<hr>
+<form action="." id="conversion-form" name="conversion-form">
+    <input type="radio" name="conversion-type" id="to-celsius" value="convert-to-celsius" checked>
+    <label for="to-celsius">Fahrenheit to Celsius</label><br>
+    <input type="radio" name="conversion-type" id="to-fahrenheit" value="convert-to-fahrenheit">
+    <label for="to-fahrenheit">Celsius to Fahrenheit</label><br><br>
+    <label id="degrees-top-label" for="degrees-entered">Enter Fahrenheit degrees:</label>
+    <input type="text" id="degrees-entered">&nbsp;<span>*</span><br>
+    <label id="degrees-bottom-label" for="degrees-computed">Celsius equivalent:</label>
+    <input type="text" id="degrees-computed" disabled><br>
+    <label>&nbsp;</label>
+    <input type="button" id="convert" value="Convert"><br>
+    <label>&nbsp;</label>
+    <input type="button" id="clear-entries" value="Clear">
+</form>
+</body>
+</html>

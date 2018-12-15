@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson - Lab 5</title>
+    <link rel="icon" href="images/favicon.ico"><!--favicon-->
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta element-->
+    <link rel="stylesheet" href="styles/slicknav.css"><!--link and script code for slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+</head>
+<body>
+
+<header>
+    <img src="images/selfie2.jpg" alt="Jasper and I">
+    <h1>My Interests</h1>
+
+</header>
+
+    <nav id="mobile_menu"></nav><!--html code for slicknav -->
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="raj.html">Raj & Momo</a></li>
+            <li><a href="jasper.html">Jasper</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
+
+        </ul>
+    </nav>
+
+<nav id="nav_menu_2">
+    <ul>
+        <li><a href="interests.html" class="current">Interests</a></li>
+        <li><a href="raj.html">Raj & Momo</a></li>
+        <li><a href="jasper.html">Jasper</a></li>
+        <li><a href="index.html">Home</a></li>
+
+    </ul>
+</nav>
+    <main>
+
+        <aside>
+            <nav id="nav_menu_1">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+
+            </ul>
+        </nav>
+        </aside>
+
+        <section>
+
+
+        <footer>
+            <p>&#9400; 2017 Tamara Kasson</p>
+        </footer>
+    </main>
+
+
+</body>
+</html>

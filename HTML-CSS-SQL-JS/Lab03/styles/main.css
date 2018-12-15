@@ -1,0 +1,110 @@
+html{
+    background-color: darkgrey; /* Make whole page have darkgrey background and padding at bottom and top*/
+    padding-top: 5px;
+    padding-bottom: 10px;   }
+
+body{
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif; /*styles body font as Trebuchet MS font*/
+    color: darkslategray; /*Makes font of body darkslategray*/
+    width: 960px; /*Body takes a width of 960 pixels*/
+    margin: 0 auto; /*Margins set to auto*/
+
+
+    border-style: double; /*border settings for body*/
+    border-width: 6px;
+    border-radius: 4px; /*rounds corners of box*/
+    border-color: slategray;
+    box-shadow: 8px 8px 8px darkslategrey; /*creates shadow from box*/
+    background-color: gainsboro;    }
+
+section{
+    float: right; /*floats section to right side*/
+    width: 77%; }
+
+aside{
+    float: left; /*floats aside to left*/
+    clear: left;
+    padding-top: 25px;
+    width: 22%; }
+
+#nav_menu_1 ul{             /*from this line to line 49, vertical navigation menu is stylized*/
+    list-style-type: none;
+    margin-bottom: 1.5em;  }
+
+#nav_menu_1 ul li{
+    width: 150px;
+    margin-bottom: .5em;
+    margin-left: -15px;
+    border: 2px solid slategray;    }
+
+#nav_menu_1 ul li a{
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+      }
+
+#nav_menu_1 ul li a.current{
+    background-color: silver;   }
+
+#nav_menu_2 ul{              /*from this line to line 74, horizontal navigation menu is stylized*/
+    list-style-type: none;
+    padding-right: 50px;    }
+
+#nav_menu_2 ul li{
+    float: right;
+    padding-bottom: 10px;
+    border: 2px solid slategray;    }
+
+#nav_menu_2 ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;  }
+
+#nav_menu_2 ul li a.current{
+    color: dimgray;   }
+
+img{                     /*float image to the left*/
+    float: left;
+    margin: -3px;
+    padding: 5px;   }
+
+section img{             /*float image to the left*/
+    float: left;
+    margin: -3px;
+    padding: 5px;   }
+
+header h1 {
+    text-align: center;
+    font-size: 350%;    }
+
+header h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 250%;    }
+
+header{
+    border-bottom: 3px solid;
+    border-color: slategray;
+    margin: 5px;
+    padding: 5px;   }
+
+footer p {               /*stylizes footer text and area*/
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: slategray;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin: 10px;
+    clear: both;    }
+
+main h2:first-child:first-letter{font-size: 150%}/*Makes first letter of body header larger*/
+a:link {color: darkslategrey;}
+a:hover, a:focus {color: lightseagreen;}

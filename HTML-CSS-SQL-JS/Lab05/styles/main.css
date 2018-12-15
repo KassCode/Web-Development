@@ -1,0 +1,237 @@
+html{
+    background-color: darkgrey; /* Make whole page have darkgrey background and padding at bottom and top*/
+    padding-top: .520%;
+    padding-bottom: 1.041%;   }
+
+body{
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif; /*styles body font as Trebuchet MS font*/
+    color: darkslategray; /*Makes font of body darkslategray*/
+    width: 99%; /*Body takes a width of 960 pixels*/
+    max-width: 960px;
+    margin: 0 auto; /*Margins set to auto*/
+
+
+    border-style: double; /*border settings for body*/
+    border-width: 6px;
+    border-radius: 4px; /*rounds corners of box*/
+    border-color: slategray;
+    box-shadow: 8px 8px 8px darkslategrey; /*creates shadow from box*/
+    background-color: gainsboro;    }
+
+section{
+    float: right; /*floats section to right side*/
+    width: 59.375%; }
+
+aside{
+    float: left; /*floats aside to left*/
+    clear: left;
+    padding-top: 2.604%;
+    width: 34.375%; }
+
+#nav_menu_1 ul{             /*from this line to line 49, vertical navigation menu is stylized*/
+    list-style-type: none;
+    margin-bottom: 1.5em;  }
+
+#nav_menu_1 ul li{
+    width: 140px;
+    margin-bottom: .5em;
+    margin-left: -15px;
+    border: 2px solid slategray;    }
+
+#nav_menu_1 ul li a{
+
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+      }
+
+#nav_menu_1 ul li a.current{
+    background-color: silver;   }
+
+#nav_menu_2 ul{ /*from this line to line 74, horizontal navigation menu is stylized*/
+    list-style-type: none;
+    padding-right: 50px;    }
+
+#nav_menu_2 ul li{
+    width: 18.229%;
+    float: right;
+    padding-bottom: 10px;
+    border: 2px solid slategray;    }
+
+#nav_menu_2 ul li a{
+    text-align: center;
+    display: block;
+
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;  }
+
+#nav_menu_2 ul li a.current{
+    color: dimgray;   }
+
+img{                     /*float image to the left*/
+    float: left;
+    margin: -3px;
+    padding: 5px;   }
+
+figure{
+    float: left;
+    margin -3px;
+    padding 5px;    }
+
+figcaption{
+    display: block;
+    font-weight: italic;
+    padding-top: .25em;
+    border-bottom: 1px solid slategray; }
+
+figure img{             /*float image to the left*/
+    float: left;
+    margin: -3px;
+    padding: 5px;   }
+
+header h1 {
+    text-align: center;
+    font-size: 350%;    }
+
+header h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 250%;    }
+
+header{
+    border-bottom: 3px solid;
+    border-color: slategray;
+    margin: 5px;
+    padding: 5px;   }
+
+footer p {               /*stylizes footer text and area*/
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: slategray;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin: 10px;
+    clear: both;    }
+
+table{
+    border-collapse: collapse;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+caption{
+    font-weight: bold;
+    font-size: 150%;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    text-align: center;
+}
+
+th{
+    color: darkslategray;
+    background-color: aliceblue;
+}
+td{
+    background-color: lightgrey;
+}
+th, td{
+    border-bottom: 1px dotted slategray;
+    border-left: 1px dotted slategray;
+    border-right: 1px dotted slategray;
+    padding: .2em .6em; /*padding in table header and data cells*/
+}
+
+th:nth-child(2), td:nth-child(2){
+    text-align: center; }
+th:nth-child(3), td:nth-child(3){
+    text-align: center;
+}
+
+main h2:first-child:first-letter{font-size: 150%}/*Makes first letter of body header larger*/
+a:link {color: darkslategrey;}
+a:hover, a:focus {color: lightseagreen;}
+
+#mobile_menu{display: none;  }/*hide mobile menu*/
+#nav_menu{display: none;    }
+.slicknav_menu{
+    display: block;
+    background-color: darkslategray  !important; }
+
+/*Media query that checks viewpoint width*/
+@media only screen and (max-width: 767px){
+    header img {float: none;    } /*header image doesn't float*/
+
+    .slicknav_menu{
+        display: block;
+        background-color: darkslategray  !important; }
+
+    #nav_menu_2{  display: none;  }
+
+    header {
+        text-align: center; /*center contents of header*/
+        padding: 0;  }      /*padding in header set to 0*/
+
+    section, aside {
+        float: none;    /*section and aside don't float*/
+        width: 95%;    } /*section and aside set to 95% width*/
+
+}
+
+fieldset {
+    margin-bottom: .5em;
+    padding: .5em 1em;
+}
+
+legend {
+    color: black;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+    label, input {
+        font-size: 90%;
+    }
+
+    input {
+        width: 15em;
+        margin-left: .5em;
+        margin-bottom: .5em;
+    }
+
+    input:required, input[required], input:invalid {
+        border: 2px solid slategray;
+    }
+
+    input:valid {
+        border: 1px solid slategray;
+    }
+    input:invalid {
+        box-shadow: none;
+    }
+
+    br {
+        clear: both;
+    }
+    input[type=submit] {
+        background-color: aliceblue;
+        border: 1px solid black;
+        float: right;
+        padding: 12px 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+    }
+}

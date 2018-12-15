@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kasson - Lab 5</title>
+    <link rel="icon" href="images/favicon.ico"><!--favicon-->
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta element-->
+    <link rel="stylesheet" href="styles/slicknav.css"><!--link and script code for slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+    <style>
+        div.slicknav_menu {
+          #mobile_menu {display:block;
+              background-color: silver !important; }
+
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="images/selfie2.jpg" alt="Jasper and I">
+    <h1>All About Tamara</h1>
+    <h2>Welcome!</h2>
+</header>
+<div class="slicknav_menu">
+<nav id="mobile_menu"></nav><!--html code for slicknav -->
+<nav id="nav_menu">
+    <ul>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="raj.html">Raj & Momo</a></li>
+        <li><a href="jasper.html">Jasper</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
+
+    </ul>
+</nav>
+</div>
+<nav id="nav_menu_2">
+    <ul>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="raj.html">Raj & Momo</a></li>
+        <li><a href="jasper.html">Jasper</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
+
+    </ul>
+</nav>
+    <main>
+
+        <aside>
+            <nav id="nav_menu_1">
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="http://discoverjamestownnd.com/">Residence</a></li>
+                <li><a href="http://dsu.edu/">College</a></li>
+                <li><a href="http://www.utc.com/Pages/Home.aspx">Employer</a></li>
+
+            </ul>
+        </nav>
+        </aside>
+
+        <section>
+        <h2>A little info about yours truly...</h2>
+        <p>The contents of this website will cover general information about myself, my interests, and those I hold dear.
+            I am a lady in her late 20s living in North Dakota with a dog and two cats. I work full-time and take about 9
+            credits a semester towards a Cyber Operations degree at Dakota State University. In my free time I watch movies, play games, and take some
+            time to enjoy nature. The overall purpose of this website is to display HTML and CSS knowledge throughout the
+            Fall 2017 semester for CIS 275.
+        </p>
+
+        <h3>Prior HTML/CSS Experience</h3>
+        <p>In addition to working to maintain high marks in this course, I look most forward to learning more in depth about
+        HTML and CSS. I had dabbled over the past several years in helping others build webpages after having played with the
+        language a bit growing up. What initially captivated my interest was early social media and web journals often offered the
+        ability to change the format of your page with HTML and CSS. Once facebook became the <strong>almighty</strong> social media platform,
+        HTML and CSS were no longer an option and thus, from then on only dipped my fingers in the language.</p>
+        </section>
+
+        <footer>
+            <p>&#9400; 2017 Tamara Kasson</p>
+        </footer>
+    </main>
+
+
+</body>
+</html>
